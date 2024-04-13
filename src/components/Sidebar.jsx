@@ -5,7 +5,7 @@ const SideBar = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
 
   return !isMenuOpen ? null : (
-    <div className="col-span-1 p-2 mt-20">
+    <div className="col-span-1 p-2 mt-5">
       <div className="border-b-2 pl-3">
         <div className="p-1  bg-gray-200 rounded-md hover:text-gray-600">
           Home

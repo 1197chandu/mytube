@@ -6,3 +6,21 @@ export const YOUTUBE_LOGO =
 
 export const USER_ICON =
   "https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small_2x/user-profile-icon-free-vector.jpg";
+
+export const namesOfButton = [
+  "All",
+  "Music",
+  "Mixes",
+  "Live",
+  "Train",
+  "India",
+  "Cooking",
+  "Swiggy",
+  "Circus",
+  "Water",
+  "Sky",
+  "Fashion",
+  "Dj",
+  "Podcast",
+  "Gym",
+];
