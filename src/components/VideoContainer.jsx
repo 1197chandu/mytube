@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 const VideoContainer = () => {
   const videos = useSelector((store) => store.videos.videos);
 
-  console.log(videos);
-
   return (
     <div className="flex flex-wrap justify-center">
       {videos.map((video) => (
